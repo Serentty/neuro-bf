@@ -85,7 +85,7 @@ impl Processor {
 	    pc:             0,
 	    program:        Vec::new(),
 	    memory:         [0; MEMORY_SIZE],
-        input_buffer:   VecDeque::new()
+	    input_buffer:   VecDeque::new()
 	}
    }
 }
